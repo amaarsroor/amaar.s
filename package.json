@@ -1,7 +1,7 @@
 {
-  "homepage": "https://github.com/amaarsroor/My_Website.git",
   "name": "my-app",
   "private": true,
+  "homepage": "https://github.com/amaarsroor/Amaar.git",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
