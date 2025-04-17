@@ -1,11 +1,10 @@
 import React from 'react'
 import HomeImg from "../assets/346102164_771319631145659_3847829363404503795_n.jpg"
-import { motion } from "motion/react"
+import { motion } from "motion/react";
+import { FaGithub, FaWhatsapp, FaFacebookMessenger } from "react-icons/fa";
+
 const Home = () => {
-
-
-
-
+  
   return (
     <div className=''>
       <section className='container mx-auto flex flex-col-reverse md:flex-col-reverse  lg:flex-row  items-center justify-between pt-44 p-8' id='home'>
@@ -28,7 +27,20 @@ const Home = () => {
             Welcome! I'm a skilled Frontend Developer with expertise in HTML, CSS, JavaScript, React.js, Tailwind CSS. I specialize in
             building modern, responsive, and high-performance websites and web applications
           </p>
-
+          <div className="flex flex-row justify-start mb-4 p-2 items-start gap-10">
+            {/* Social Icons */}
+            <div className="flex justify-start md:flex-row gap-4 md:items-center">
+              <a href="https://github.com/amaarsroor" target="_blank" rel="noopener noreferrer" className="text-3xl text-gray-700 hover:text-black transition">
+                <FaGithub />
+              </a>
+              <a href="https://wa.me/201287550918" target="_blank" rel="noopener noreferrer" className="text-3xl text-green-500 hover:text-green-700 transition">
+                <FaWhatsapp />
+              </a>
+              <a href="https://m.me/AmaarSroor.dev" target="_blank" rel="noopener noreferrer" className="text-3xl text-blue-500 hover:text-blue-700 transition">
+                <FaFacebookMessenger />
+              </a>
+            </div>
+          </div>
           <a
             className='px-8 py-2 text-lg text-black bg-teal-700 mt-13 rounded-lg shadow-2xl shadow-black hover:bg-black duration-300 hover:text-teal-900'
             href=""

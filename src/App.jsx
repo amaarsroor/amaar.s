@@ -7,7 +7,7 @@ import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
-import Banner from './Components/banner';
+import Banner from './Components/Banner';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
