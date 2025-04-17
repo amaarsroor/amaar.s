@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+* {
+    scroll-behavior: smooth;
+}
+body{
+    height: 100vh;
+}
