@@ -44,7 +44,7 @@ const Home = () => {
           <a
             className='px-8 py-2 text-lg text-black bg-teal-700 mt-13 rounded-lg shadow-2xl shadow-black hover:bg-black duration-300 hover:text-teal-900'
             href=""
-            download="../assets/amaar sroor - front-end - CV.pdf"
+            download="../amaar sroor - front-end - CV.pdf"
           >
             Download CV
           </a>
